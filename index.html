@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/output.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="icon" href="./assets/gemstone.png" class="rounded-full">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Loja</title>
+</head>
+<body>
+<!-- Header -->
+
+
+<header class="w-full h-[220px] bg-zinc-900">
+    <div class="w-full h-full flex flex-col justify-center items-center">
+        <img src="./assets/logo.jpg" alt="Logo da loja" class="w-20 h-20 rounded-full shadow-lg hover:scale-110 duration-200" >
+    <h1 class="text-3xl mt-4 mb-2 font-thin text-white">Loja da Wanessa</h1>
+    <span class="text-white font-thin">Brilhe com o poder das joias que refletem a sua personalidade.</span>
+<div><span></span></div>  
+</div>
+</header>
+
+
+<!-- Fim Do Header -->
+
+<div class="flex justify-between items-center px-6">
+
+<h2 class="text-2xl md:text-3xl text-center mt-9 mb-6" style="font-family: Noto Sans;">Conheça meus produtos</h2>
+<button id="cart-btn">
+    <div class="flex gap-2 mt-9 mb-6 items-center">
+        <i class="fa fa-cart-plus text-zinc-800"></i>
+        <span id="cart-count" class="text-black bg-white w-6 h-6 rounded-full">0</span>
+    </div>
+</button> 
+</div>
+
+
+<!-- INICIO DO MENU -->
+
+<div id="menu">
+    <p class="text-sm font-thin ml-5">Anéis:</p><hr>
+    <main class="grid grid-cols-1 gap-7 mx-auto max-w-5xl md:grid-cols-2 px-2 mb-16 md:gap-10">
+        <!-- Produto Item -->
+        <div class="flex gap-2">
+            <img src="./assets/anel.jpg" 
+                    alt="Anel bonito"
+                    class= " w-36 h-36 hover:scale-110 hover:-rotate-2 duration-300 rounded" 
+                    
+                    >
+        
+                    <div>
+                        <div class="flex justify-between mb-3">
+                            <p class="text-black" style="font-family: Noto Sans;">Anel de ouro</p>
+                            
+                        </div>
+                        <p class="text-sm" style="font-family: Noto Sans;">is simply dummy text of the printing and typesetting industry s simply dummy text of the printing and typesetting industry and typesetting </p>
+                    <div class="flex items-center gap-2 justify-between mt-3 bg-white px-1 rounded-md">
+                        <p class="text-gray-600">R$ 28,90</p>
+                        <button class="mt-1 mb-1 bg bg-black w-8 h-8 rounded-full add-to-cart-btn" data-name="Anel de ouro" data-price="28.90" data-img="./assets/anel.jpg">
+                            <i class="fa fa-cart-plus text-white"></i>
+                        </button>
+                    </div>
+                    </div>
+                </div>
+        <!-- Produto Item -->
+
+             <!-- Produto Item -->
+             <div class="flex gap-2">
+                <img src="./assets/anel2.webp" 
+                        alt="Anel bonito"
+                        class=" w-36 h-36  hover:scale-110 hover:-rotate-2 duration-300 rounded">
+            
+                        <div>
+                           <div class="flex justify-between mb-3">
+                            <p>Anel de ouro 2</p>
+                          
+                           </div>
+                            <p class="text-sm">is simply dummy text of the printing and typesetting industry s simply dummy text of the printing and typesetting industry and typesetting</p>
+                        <div class="flex items-center gap-2 justify-between mt-3 bg-white px-1 rounded-md">
+                            <p class="text-gray-600">R$ 90,91</p>
+                            <button class="mt-1 mb-1 bg bg-black w-8 h-8 rounded-full add-to-cart-btn" data-name="Anel de ouro 2" data-price="90.91" data-img="./assets/anel2.webp">
+                                <i class="fa fa-cart-plus text-white"></i>
+                            </button>
+                        </div>
+                        </div>
+                    </div>
+            <!-- Produto Item -->
+        
+    </main>
+
+    <p class="text-sm font-thin ml-5">Brincos:</p><hr>
+    <main class="grid grid-cols-1 gap-7 mx-auto max-w-5xl md:grid-cols-2 px-2 mb-16 md:gap-10 items-center">
+        <!-- Produto Item -->
+        <div class="flex gap-2">
+            <img src="./assets/brinco.jpg" 
+                    alt="Anel bonito"
+                    class=" w-36 h-36  hover:scale-110 hover:-rotate-2 duration-300 rounded">
+        
+                    <div>
+                        <p class="mb-3">Brinco de ouro</p>
+                        <p class="text-sm">is simply dummy text of the printing and typesetting industry</p>
+                    <div class="flex items-center gap-2 justify-between mt-3 bg-white px-1 rounded-md">
+                        <p class="text-gray-600">R$ 78,90</p>
+                        <button class="mt-1 mb-1 bg bg-black w-8 h-8 rounded-full add-to-cart-btn" data-name="Brinco de ouro" data-price="78.90" data-img="./assets/brinco.jpg">
+                            <i class="fa fa-cart-plus text-white"></i>
+                        </button>
+                    </div>
+                    </div>
+                </div>
+        <!-- Produto Item -->
+
+             <!-- Produto Item -->
+             <div class="flex gap-2">
+                <img src="./assets/brinco2.webp" 
+                        alt="Anel bonito"
+                        class=" w-36 h-36  hover:scale-110 hover:-rotate-2 duration-300 rounded">
+            
+                        <div>
+                            <p class="mb-3">Brinco de ouro 2</p>
+                            <p class="text-sm">is simply dummy text of the printing and typesetting industry</p>
+                        <div class="flex items-center gap-2 justify-between mt-3 bg-white px-1 rounded-md">
+                            <p class="text-gray-600">R$ 28,90</p>
+                            <button class="mt-1 mb-1 bg bg-black w-8 h-8 rounded-full add-to-cart-btn" data-name="Brinco de ouro 2" data-price="28.90" data-img="./assets/brinco2.webp">
+                                <i class="fa fa-cart-plus text-white"></i>
+                            </button>
+                        </div>
+                        </div>
+                    </div>
+            <!-- Produto Item -->
+
+                <!-- Produto Item -->
+                <div class="flex gap-2">
+                    <img src="./assets/brinco3.webp" 
+                            alt="Anel bonito"
+                            class=" w-36 h-36  hover:scale-110 hover:-rotate-2 duration-300 rounded">
+                
+                            <div>
+                                <p class="mb-3">Brinco de ouro 3</p>
+                                <p class="text-sm">is simply dummy text of the printing and typesetting industry</p>
+                            <div class="flex items-center gap-2 justify-between mt-3 bg-white px-1 rounded-md">
+                                <p class="text-gray-600">R$ 28,90</p>
+                                <button class="mt-1 mb-1 bg bg-black w-8 h-8 rounded-full add-to-cart-btn" data-name="Brinco de ouro 3" data-price="28.90" data-img="./assets/brinco3.webp">
+                                    <i class="fa fa-cart-plus text-white"></i>
+                                </button>
+                            </div>
+                            </div>
+                        </div>
+                <!-- Produto Item -->
+
+
+                <!-- Produto Item -->
+                <div class="flex gap-2">
+                    <img src="./assets/brinco4.jpg" 
+                            alt="Anel bonito"
+                            class=" w-36 h-36  hover:scale-110 hover:-rotate-2 duration-300 rounded">
+                
+                            <div>
+                                <p class="mb-3">Brinco de ouro 3</p>
+                                <p class="text-sm">is simply dummy text of the printing and typesetting industry</p>
+                            <div class="flex items-center gap-2 justify-between mt-3 bg-white px-1 rounded-md">
+                                <p class="text-gray-600">R$ 28,90</p>
+                                <button class="mt-1 mb-1 bg bg-black w-8 h-8 rounded-full add-to-cart-btn" data-name="Brinco de ouro 3" data-price="28.90" data-img="./assets/brinco3.webp">
+                                    <i class="fa fa-cart-plus text-white"></i>
+                                </button>
+                            </div>
+                            </div>
+                        </div>
+                <!-- Produto Item -->
+        
+    </main>
+
+    <p class="text-sm font-thin ml-5">Colares:</p><hr>
+    <main class="grid grid-cols-1 gap-7 mx-auto max-w-5xl md:grid-cols-2 px-2 mb-16 md:gap-10">
+        <!-- Produto Item -->
+        <div class="flex gap-2">
+            <img src="./assets/colar.webp" 
+                    alt="Anel bonito"
+                    class=" w-36 h-36  hover:scale-110 hover:-rotate-2 duration-300 rounded">
+        
+                    <div>
+                        <p>Colar de prata</p>
+                        <p class="text-sm">is simply dummy text of the printing and typesetting industry</p>
+                    <div class="flex items-center gap-2 justify-between mt-3 bg-white px-1 rounded-md">
+                        <p class="text-gray-600">R$ 78,90</p>
+                        <button class="mt-1 mb-1 bg bg-black w-8 h-8 rounded-full add-to-cart-btn" data-name="Colar de prata" data-price="78.90" data-img="./assets/colar.webp">
+                            <i class="fa fa-cart-plus text-white"></i>
+                        </button>
+                    </div>
+                    </div>
+                </div>
+        <!-- Produto Item -->
+
+             <!-- Produto Item -->
+             <div class="flex gap-2">
+                <img src="./assets/colar2.png" 
+                        alt="Anel bonito"
+                        class=" w-36 h-36  hover:scale-110 hover:-rotate-2 duration-300 rounded">
+            
+                        <div>
+                            <p>Colar de prata 2</p>
+                            <p class="text-sm">is simply dummy text of the printing and typesetting industry</p>
+                        <div class="flex items-center gap-2 justify-between mt-3 bg-white px-1 rounded-md">
+                            <p class="text-gray-600">R$ 28,90</p>
+                            <button class="mt-1 mb-1 bg bg-black w-8 h-8 rounded-full add-to-cart-btn" data-name="Colar de prata 2" data-price="28.90" data-img="./assets/colar2.png">
+                                <i class="fa fa-cart-plus text-white"></i>
+                            </button>
+                        </div>
+                        </div>
+                    </div>
+            <!-- Produto Item -->
+        
+    </main>
+
+    <p class="text-sm font-thin ml-5">Pulseiras:</p><hr>
+    <main class="grid grid-cols-1 gap-7 mx-auto max-w-5xl md:grid-cols-2 px-2 mb-16 md:gap-10">
+        <!-- Produto Item -->
+        <div class="flex gap-2">
+            <img src="./assets/pulseira.webp" 
+                    alt="Anel bonito"
+                    class=" w-36 h-36  hover:scale-110 hover:-rotate-2 duration-300 rounded">
+        
+                    <div>
+                        <p>Pulseira de ouro</p>
+                        <p class="text-sm">is simply dummy text of the printing and typesetting industry</p>
+                    <div class="flex items-center gap-2 justify-between mt-3 bg-white px-1 rounded-md">
+                        <p class="text-gray-600">R$ 78,90</p>
+                        <button class="mt-1 mb-1 bg bg-black w-8 h-8 rounded-full add-to-cart-btn" data-name="Pulseira de ouro" data-price="78.90" data-img="./assets/pulseira.webp">
+                            <i class="fa fa-cart-plus text-white"></i>
+                        </button>
+                    </div>
+                    </div>
+                </div>
+        <!-- Produto Item -->
+
+             <!-- Produto Item -->
+             <div class="flex gap-2">
+                <img src="./assets/pulseira2.webp" 
+                        alt="Anel bonito"
+                        class=" w-36 h-36  hover:scale-110 hover:-rotate-2 duration-300 rounded">
+            
+                        <div>
+                            <p>Pulseira de prata</p>
+                            <p class="text-sm">is simply dummy text of the printing and typesetting industry</p>
+                        <div class="flex items-center gap-2 justify-between mt-3 bg-white px-1 rounded-md">
+                            <p class="text-gray-600">R$ 28,90</p>
+                            <button class="mt-1 mb-1 bg bg-black w-8 h-8 rounded-full add-to-cart-btn" data-name="Pulseira de prata" data-price="28.90" data-img="./assets/pulseira2.webp">
+                                <i class="fa fa-cart-plus text-white"></i>
+                            </button>
+                        </div>
+                        </div>
+                    </div>
+            <!-- Produto Item -->
+
+             <!-- Produto Item -->
+             <div class="flex gap-2">
+                <img src="./assets/pulseira2.webp" 
+                        alt="Anel bonito"
+                        class=" w-36 h-36  hover:scale-110 hover:-rotate-2 duration-300 rounded">
+            
+                        <div>
+                            <p>Pulseira de prata</p>
+                            <p class="text-sm">is simply dummy text of the printing and typesetting industry</p>
+                        <div class="flex items-center gap-2 justify-between mt-3 bg-white px-1 rounded-md">
+                            <p class="text-gray-600">R$ 28,90</p>
+                            <button class="mt-1 mb-1 bg bg-black w-8 h-8 rounded-full add-to-cart-btn" data-name="Pulseira de prata" data-price="28.90" data-img="./assets/pulseira2.webp">
+                                <i class="fa fa-cart-plus text-white"></i>
+                            </button>
+                        </div>
+                        </div>
+                    </div>
+            <!-- Produto Item -->
+        
+    </main>
+
+</div>
+
+<!-- FIM DO MENU -->
+
+
+<!-- Modal -->
+
+<div class="bg-black/50 w-full h-full fixed top-0 left-0 z-[99] hidden items-center justify-center overflow-scroll " id="cart-modal">
+
+    <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+        <p class="text-center font-light">Meu carrinho</p>
+<div id="cart-itens" class="flex justify-between mb-2 flex-col"></div>
+        <div class="flex justify-between mb-2 flex-col">
+
+            <p>Total:<span id="cart-total">0.00</span></p>
+        <p>Seu endereço</p>
+        <input type="text"
+        placeholder="Digite seu endreço completo"
+        id="address"
+        class="w-full border-2 p-1 rounded my-1"
+        >
+        <p class="text-red-500 hidden" id="address-warn">Digite seu endereço completo</p>
+        <div class="flex justify-between items-center">
+            <button id="close-modal-btn">Voltar</button>
+            <button id="checkout-btn" class="bg-orange-500 text-white px-3 rounded py-1 ">Finalizar pedido.</button>
+        </div>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Modal -->
+
+
+<!-- FOOTER -->
+<footer class="h-40 bg-white">
+ 
+</footer>
+<!-- FIM FOOTER -->
+<script src="script.js"></script>
+</body>
+</html>
